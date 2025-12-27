@@ -1,0 +1,31 @@
+Order_ID,Order_Date,Customer_Name,Product,Category,Region,Quantity,Unit_Price,Payment_Mode,Revenue,Month
+1001,05-01-2023,Rahul Sharma,Laptop,Electronics,West,1,55000,Card,55000,January
+1002,07-01-2023,Anita Verma,Headphones,Electronics,North,2,2000,UPI,4000,January
+1003,10-02-2023,Amit Patel,Office Chair,Furniture,South,1,8500,Cash,8500,February
+1004,15-02-2023,Neha Singh,Smartphone,Electronics,East,1,30000,Card,30000,February
+1005,01-03-2023,Ravi Kumar,Desk,Furniture,West,2,6000,UPI,12000,March
+1006,12-03-2023,Priya Mehta,Tablet,Electronics,South,1,20000,Card,20000,March
+1007,05-04-2023,Suresh Iyer,Printer,Electronics,North,1,12000,Cash,12000,April
+1008,18-04-2023,Kiran Rao,Office Chair,Furniture,East,1,8500,UPI,8500,April
+1009,02-05-2023,Manoj Joshi,Monitor,Electronics,West,2,9000,Card,18000,May
+1010,15-05-2023,Pooja Nair,Desk Lamp,Accessories,South,3,1500,UPI,4500,May
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,

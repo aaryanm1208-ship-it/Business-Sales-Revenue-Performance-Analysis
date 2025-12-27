@@ -1,0 +1,98 @@
+1. Business Objectives
+Track overall sales and revenue performance
+Identify top & low-performing products
+Analyze regional sales trends
+Measure monthly & yearly growth
+Improve decision-making using KPIs
+
+2. Dataset Description
+Dataset Type: Retail Sales Data
+Source: Simulated real-world business dataset
+
+Columns Used:
+Column Name	Description
+Order_ID	Unique order identifier
+Order_Date	Date of purchase
+Customer_Name	Customer name
+Product	Product name
+Category	Product category
+Region	Sales region
+Quantity	Units sold
+Unit_Price	Price per unit
+Revenue	Quantity × Unit_Price
+Payment_Mode	Cash / Card / UPI
+
+3. Tools & Technologies Used
+Excel → Data cleaning & basic analysis
+SQL → Querying & KPIs
+Power BI → Interactive dashboard
+GitHub → Version control & portfolio
+
+4. Data Cleaning Process (Excel / Python)
+Removed duplicates
+Handled missing values
+Converted dates into proper format
+Created calculated fields:
+Revenue
+Month
+Year
+Standardized category & region names
+
+5. Key KPIs Defined
+Total Revenue
+Total Orders
+Average Order Value
+Monthly Growth Rate
+Top Product by Revenue
+Top Region by Sales
+
+6. SQL Analysis (Core Queries)
+1️⃣ Total Revenue
+SELECT SUM(revenue) AS total_revenue
+FROM sales;
+
+2️⃣ Monthly Revenue Trend
+SELECT 
+  YEAR(order_date) AS year,
+  MONTH(order_date) AS month,
+  SUM(revenue) AS monthly_revenue
+FROM sales
+GROUP BY year, month
+ORDER BY year, month;
+
+3️⃣ Top 5 Products
+SELECT product, SUM(revenue) AS revenue
+FROM sales
+GROUP BY product
+ORDER BY revenue DESC
+LIMIT 5;
+
+4️⃣ Region-wise Sales
+SELECT region, SUM(revenue) AS total_sales
+FROM sales
+GROUP BY region;
+
+7. Power BI Dashboard Features
+📌 Dashboard Pages
+Executive Overview
+Product Performance
+Regional Analysis
+Time-Based Trends
+📊 Visuals Used
+KPI Cards
+Line Chart (Revenue trend)
+Bar Chart (Top products)
+Donut Chart (Category share)
+Slicers (Date, Region, Category)
+
+8. Key Insights
+📈 Revenue increased significantly in Q3
+🏆 Electronics category generated the highest revenue
+🌍 West Region contributed the most sales
+❌ Certain products had high volume but low profitability
+
+ 9. Business Recommendations
+Focus marketing on high-margin products
+Improve pricing strategy for low-profit items
+Expand operations in high-performing regions
+Use seasonal trends for better inventory planning

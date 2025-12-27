@@ -1,0 +1,11 @@
+Order_ID,Order_Date,Customer_Name,Product,Category,Region,Quantity,Unit_Price,Payment_Mode
+1001,2023-01-05,Rahul Sharma,Laptop,Electronics,West,1,55000,Card
+1002,2023-01-07,Anita Verma,Headphones,Electronics,North,2,2000,UPI
+1003,2023-02-10,Amit Patel,Office Chair,Furniture,South,1,8500,Cash
+1004,2023-02-15,Neha Singh,Smartphone,Electronics,East,1,30000,Card
+1005,2023-03-01,Ravi Kumar,Desk,Furniture,West,2,6000,UPI
+1006,2023-03-12,Priya Mehta,Tablet,Electronics,South,1,20000,Card
+1007,2023-04-05,Suresh Iyer,Printer,Electronics,North,1,12000,Cash
+1008,2023-04-18,Kiran Rao,Office Chair,Furniture,East,1,8500,UPI
+1009,2023-05-02,Manoj Joshi,Monitor,Electronics,West,2,9000,Card
+1010,2023-05-15,Pooja Nair,Desk Lamp,Accessories,South,3,1500,UPI
